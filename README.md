@@ -100,8 +100,8 @@ bash main.sh
   </dict>
   </plist>
   EOF
-  
-  launchctl load ~/Library/LaunchAgents/cn.ouc.shell.plist
+
+launchctl load ~/Library/LaunchAgents/cn.ouc.shell.plist
   ```
   - 请将 `/绝对路径/到/OUC_Shell` 替换为你的实际仓库路径（例如 `/Users/yourname/github_project/OUC_Shell`）。
   - 停止/重载：`launchctl unload ~/Library/LaunchAgents/cn.ouc.shell.plist` 后再 `load`。
