@@ -104,8 +104,7 @@ launchctl load ~/Library/LaunchAgents/cn.ouc.shell.plist
 - 查看运行日志
   ```
   tail -f /绝对路径/到/OUC_Shell/service.log
-  ```
-
+  
 # 效果演示
 
 ![img.png](show.png)
